@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.19.2",
     "bootstrap-daterangepicker": "^2.1.25",
     "chart.js": "^2.6.0",
     "country-data": "0.0.31",

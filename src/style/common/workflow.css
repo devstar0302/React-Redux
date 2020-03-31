@@ -1,0 +1,48 @@
+.wizard-step-1 {
+    width: 90%;
+}
+
+.wizard-step-1-container {
+    position: relative;
+}
+
+.wizard-step-1-help {
+    position: absolute;
+    top: 84px;
+    right: 5px;
+}
+
+.wizard-step-1-add {
+    position: absolute;
+    top: 180px;
+    right: 5px;
+}
+
+.wizard-diagram-choice {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wizard-diagram-choice button:hover {
+    background-color: #d7d8d9 !important;
+}
+
+.tt-workflow {
+    min-width: 250px !important;
+    white-space: nowrap;
+}
+
+.text-plus-icon {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px !important;
+}
+
+.text-plus-icon button {
+    padding: 0 !important;
+}
+
+.text-plus-icon svg:hover {
+    fill: #f44336 !important;
+}

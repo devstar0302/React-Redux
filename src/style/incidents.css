@@ -1,0 +1,89 @@
+.main-panel {
+    margin-top: 5px;
+}
+
+.table-icons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-panel th>span {
+    font-size: 14pt;
+}
+
+.main-panel td,
+.main-panel td>span {
+    font-size: 12pt;
+    color: #939395 !important;
+}
+
+.table-panel th>span,
+.table-panel th>a>span {
+    font-size: 12pt;
+    color: #939395 !important;
+}
+
+.table-panel td,
+.table-panel td>span {
+    font-size: 11pt;
+    color: #939395 !important;
+}
+
+.table-panel img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.table-panel2 th {
+    background: rgba(0,0,0,0.04);
+}
+.table-panel2 th>span,
+.table-panel2 th>a>span {
+    font-size: 12px;
+    color: #5c5c5c !important;
+}
+
+.table-panel2 td,
+.table-panel2 td>span {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.table-panel2 td {
+    padding: 4px;
+}
+
+.table-panel2 img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.small-modal-table th>span {
+    font-size: 9pt;
+    color: #939395 !important;
+}
+
+.small-modal-table td,
+.small-modal-table td>span {
+    font-size: 8pt;
+    color: #939395 !important;
+}
+
+.small-table .griddle-body>div {
+    height: 100% !important;
+    overflow-y: auto !important;
+}
+
+.main-incident-toggle {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    top: -2px;
+    z-index: 3;
+}
+
+.main-incident-toggle svg {
+    fill: #939395 !important;
+}

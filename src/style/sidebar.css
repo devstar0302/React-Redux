@@ -1,0 +1,126 @@
+#main-navigation {
+    padding-top: 30px;
+}
+
+.sidebar-minimize {
+    padding: 14px;
+}
+
+.sidebar {
+    width: 100%;
+    position: absolute;
+    top: 170px;
+}
+
+.sidebar-item-container {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.sidebar-condensed .sidebar-item-container {
+    padding-left: 0px;
+}
+
+.sidebar-title {
+    color: #838489;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.sidebar-condensed .sidebar-title {
+    display: none;
+}
+
+.sidebar-item-container button>div>div {
+    display: none;
+}
+
+.sidebar-condensed .sidebar-item-container button>div>div {
+    display: block;
+}
+
+.sidebar-chosen {
+    background-color: #2b2c31;
+}
+
+.sidebar-chosen .sidebar-title {
+    color: #ffffff;
+}
+
+.sidebar-chosen svg {
+    fill: #ffffff !important;
+}
+
+.sidebar-custom {
+    background-color: #33363d !important;
+}
+
+.sidebar-custom hr {
+    margin-left: 10px !important;
+}
+
+.sidebar-condensed .sidebar-custom hr {
+    margin-left: 0px !important;
+}
+
+/* Sidebar tooltip */
+
+.sidebar-tooltip {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    z-index: 500;
+    white-space: nowrap;
+    background-color: transparent;
+    padding: 0 16px;
+}
+
+/* Message view */
+.topbar-message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.message-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+
+.message-text div {
+    max-width: 350px;
+}
+
+.inner-text {
+    white-space: normal;
+}
+
+.message-time {
+    padding-left: 15px;
+}
+
+.see-all-messages:hover {
+    background-color: #b8b7b7 !important;
+}
+
+.see-all-messages:hover svg path, .see-all-messages:hover {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.see-all-messages>div>div {
+    padding-left: 50px !important;
+}
+
+

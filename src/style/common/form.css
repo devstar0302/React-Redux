@@ -1,0 +1,55 @@
+.form-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-column-shift > div:first-child {
+    flex-basis: 100px;
+}
+
+.form-buttons {
+    text-align: right;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-top: 48px;
+}
+
+.form-buttons > div {
+    margin-left: 20px;
+}
+
+.form-mui-inline > div{
+    vertical-align: middle;
+}
+
+.form-column>div {
+    width:100% !important;
+}
+
+.form-buttons button:hover {
+    background-color: #d7d8d9 !important;
+}
+
+.crud-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.crud-buttons button {
+    padding: 0 !important;
+}
+
+.add-button svg:hover {
+    fill: #8bc34a !important;
+}
+
+.edit-button svg:hover {
+    fill: #2196f3 !important;
+}
+
+.remove-button svg:hover {
+    fill: #f44336 !important;
+}

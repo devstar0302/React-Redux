@@ -1,0 +1,91 @@
+table.table tbody tr.selected,
+table.table tbody td.selected{
+    background-color: #C7DEFC;
+}
+
+.table.table-p-sm>tbody>tr>td,
+.table.table-p-sm>tbody>tr>th,
+.table.table-p-sm>tfoot>tr>td,
+.table.table-p-sm>tfoot>tr>th,
+.table.table-p-sm>thead>tr>td,
+.table.table-p-sm>thead>tr>th {
+    padding: 4px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+/*Table column size */
+
+.width-40 {
+    width: 40px;
+}
+
+.width-60 {
+    width: 60px;
+}
+
+.width-80 {
+    width: 80px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-120 {
+    width: 120px;
+}
+
+.width-140 {
+    width: 140px;
+}
+
+.width-160 {
+    width: 160px;
+}
+
+.width-180 {
+    width: 180px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.width-220 {
+    width: 220px;
+}
+
+.width-280 {
+    width: 280px;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.width-530 {
+    width: 530px;
+}
+
+.width-600 {
+    width: 600px;
+}
+
+.width-620 {
+    width: 620px;
+}
+
+.width-750 {
+    width: 750px;
+}
+
+.width-800 {
+    width: 800px;
+}

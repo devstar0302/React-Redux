@@ -1,0 +1,65 @@
+/* File Input */
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+    .fileinput-button input {
+        filter: alpha(opacity=0);
+        font-size: 100%;
+        height: 100%;
+    }
+}
+
+.upload-file {
+    position: relative;
+    cursor: pointer !important;
+}
+
+.upload-file input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16pt;
+    opacity: 0;
+    cursor: pointer !important;
+}
+
+.images-list {
+    background-color: #000000;
+}
+
+.image-upload-container {
+    display: inline-block;
+}
+
+.image-container {
+    position: relative;
+    height: 100px;
+}
+
+.image-container img {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    max-width: 300px;
+    max-height: 100px;
+}

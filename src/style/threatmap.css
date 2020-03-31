@@ -1,0 +1,249 @@
+#latestAttacksContainer {
+    position: relative;
+    color: #DEDFE0;
+    background-color: #45484F;
+}
+#latestAttacksContainerLeft {
+    height: 15em;
+    border-width: 1px 0px 1px 1px;
+    overflow: auto;
+}
+#latestAttacksContainerRight {
+    height: 110px;
+    float: left;
+    border-width: 0px;
+    background: url('/resources/images/sidebar/threatmap/smallBox.png') 0px 0px no-repeat;
+    width: 150px;
+}
+#latestAttacksContainerRight > div {
+    padding: 15px;
+    clear: both;
+}
+#latestAttacksContainerRight > div span {
+    padding-top: 6px;
+    display: block;
+    float: left;
+}
+#latestAttacksTimeCol, .timeCol {
+    width: 5%;
+}
+#latestAttacksAttackCol, .attackCol {
+    /*width: 25%;*/
+}
+#latestAttacksActionCol, .actionCol {
+
+}
+#latestAttacksSourceCol, .sourceCol{
+    width: 20%;
+}
+#latestAttacksDestCol, .destCol{
+    width: 20%;
+}
+.timeCol, .destCol, .sourceCol, .attackCol, .actionCol {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.targetIcon, .attackerIcon {
+    width: 30px;
+    height: 33px;
+    float: left;
+    margin-right: 10px;
+}
+.attackerIcon {
+    background-image: url("/resources/images/sidebar/threatmap/SquarePin.png");
+}
+.targetIcon {
+    background-image: url("/resources/images/sidebar/threatmap/RoundedPin.png");
+}
+
+#spacerRow div {
+    line-height: 6px;
+}
+#latestAttacksContainerLeft #tableContainer {
+    display: table;
+    width: 100%;
+}
+#latestAttacksContainerLeft #tableHeaderRow {
+    display: table-row;
+    background: #858180;
+}
+#latestAttacksContainerLeft #tableHeaderRow div {
+    color: white;
+}
+.attackRow {
+    display: table-row;
+    position: relative;
+}
+.attackRow .attackContainer {
+    display: block;
+    /*max-width: 300px;*/
+}
+.attackRow p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+#latestAttacksContainerLeft #tableHeaderRow > div {
+    display: table-cell;
+    font-size: .85em;
+    padding: 10px 15px;
+    position: relative;
+}
+.attackRow div {
+    display: table-cell;
+    padding: 0px 15px;
+}
+.attackRow .sourceCol p{
+    width: 70%;
+    display: inline-block;
+}
+
+.attackRow .destCol p{
+    width: 70%;
+    display: inline-block;
+}
+
+
+#countryDrillDownContainer {
+
+    background-color: rgba(26, 16, 22, 0.9);
+    width: 245px;
+    box-shadow: none;
+    height: auto;
+    opacity: 0;
+    border-width: 2px;
+    text-align: left;
+
+    position: absolute;
+    z-index: 9999999;
+    margin: 0;
+}
+
+#countryDrillDownContainer.active {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    opacity: 1;
+    z-index: 999999;
+}
+
+#countryDrillDownContainer > div {
+    padding: 7px 10px;
+    color: #fff;
+    border-width: 1px 0px 1px 0px;
+    margin: 0;
+}
+
+#mostAttackingCountryContainer #frequentAttackingCountryTxt {
+    display: block;
+    margin-top: 5px;
+}
+
+#countryDrillDowntitleContainer {
+    cursor: move;
+    font-size: 0.9em;
+    background-color:#e45785;
+}
+
+#countryDrillDownContainer span.sectionHeadline {
+    font-size: 0.8em;
+    margin: 5px 0px 5px 0px;
+    display: block;
+}
+
+#countryDrillDownContainer strong {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.pinkGradient {
+    background: #86224B;
+    background: -webkit-linear-gradient(#9e2b58, #450b27);
+    /* For Safari 5.1 to 6.0 */
+
+    background: -o-linear-gradient(#9e2b58, #450b27);
+    /* For Opera 11.1 to 12.0 */
+
+    background: -moz-linear-gradient(#9e2b58, #450b27);
+    /* For Firefox 3.6 to 15 */
+
+    background: linear-gradient(#9e2b58, #450b27);
+    /* Standard syntax */
+
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#9e2b58', endColorstr='#450b27');
+}
+
+.modalCloseBtn {
+    background-image: url("https://sc1.checkpoint.com/threatcloud/images/live-map/x.png");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.modalCloseBtn .fa {
+    font-size: 17px;
+    margin-left: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: black;
+}
+.modalCloseBtn .fa:hover {
+    color: white;
+}
+
+.play-controls {
+    display: none;
+    margin: 0 8px;
+    padding: 15px 0;
+}
+
+.slider-visible .play-controls {
+    display: flex;
+}
+
+.play-controls .rc-slider,
+.play-controls .rc-slider-track{
+    height: 6px;
+}
+.play-controls .rc-slider-track {
+    background-color: #94EE2E;
+}
+
+.example-appear {
+    opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+}
+
+.jvectormap-zoomin, .jvectormap-zoomout {
+    width: 24px;
+    height: 24px;
+    background: #67D623;
+    border-radius: 50%;
+    line-height: 24px;
+    font-size: 30px;
+}
+
+.jvectormap-zoomout {
+    line-height: 20px;
+    top: 45px;
+}

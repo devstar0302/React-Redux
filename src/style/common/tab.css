@@ -1,0 +1,68 @@
+.tab-header {
+    min-height: 120px;
+    position: relative;
+    margin: 16px 20px 0;
+}
+
+.tab-title {
+    font-size: 20px;
+    color: rgb(84, 105, 141);
+    text-transform: uppercase;
+}
+
+.tab-header .dropdown-menu>li>a{
+    color: #428bca;
+}
+
+.tabs-custom .nav-tabs {
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.tabs-custom .nav-tabs>li {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.tabs-custom .nav-tabs>li>a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.tabs-custom .nav-tabs>li.active>a,
+.tabs-custom .nav-tabs>li.active>a:hover,
+.tabs-custom .nav-tabs>li.active>a:focus {
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 4px solid;
+    border-color: #78a8ca;
+}
+
+.tabs-custom{
+    padding: 0;
+}
+
+.tabs-custom .tab-content {
+    margin-bottom: 0;
+    overflow: auto;
+    margin: 10px 20px 20px;
+}
+
+.tab-content>.active {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tab-content>.active>div {
+    width: 100%;
+}
+
+.tab-content>.hidden {
+    display: none;
+}
+

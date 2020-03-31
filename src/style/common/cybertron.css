@@ -1,0 +1,30 @@
+.news-item {
+    padding: 4px 0;
+}
+
+.news-item .article-body {
+    padding: 4px;
+}
+
+.news-item .article-title {
+    font-size: 14px;
+    font-weight: bold;
+    max-height: 17px;
+    overflow: hidden;
+}
+
+.news-item .article-desc {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 16px;
+    font-size: 12px;
+}
+
+.news-item .article-time {
+    font-size: 12px;
+}
+
+.news-item img{
+    width: 90px;
+    height: 60px;
+}

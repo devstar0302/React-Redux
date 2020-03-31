@@ -1,0 +1,54 @@
+/* Field Item */
+.field-item.selected {
+    background: lightgray;
+}
+
+.field-key {
+    color: gray;
+    font-size: 11px;
+}
+
+.field-value {
+    color: black;
+    font-size: 12px;
+}
+
+.field-separator {
+    height: 16px;
+    width: 1px;
+    border-left: 1px dashed gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.highlight {
+    background: yellow;
+}
+
+select.select-custom.input-sm {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    font-size: 13px;
+    line-height: 23px;
+    padding-top: 0;
+    padding-left: 3px;
+    padding-right: 0;
+    outline: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+input.input-custom.input-sm {
+    width: 25px;
+    border: none;
+    padding-top: 2px;
+    padding-left: 2px;
+    font-size: 13px;
+    padding-right: 2px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.6);
+}

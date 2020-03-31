@@ -1,0 +1,5 @@
+.redux-infinite-scroll {
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+}

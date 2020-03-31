@@ -1,0 +1,54 @@
+.griddle {
+    background: white;
+    padding-bottom: 30px;
+}
+
+.griddle table {
+    margin: 0;
+    min-width: 100%;
+    width: auto;
+}
+
+.griddle .table>tbody+tbody {
+    border: none;
+}
+
+.griddle .footer-container {
+    display: none;
+}
+
+.griddle th {
+    background-color: white;
+    padding-left: 6px !important;
+}
+
+.griddle .table>tbody>tr>td {
+    vertical-align: middle;
+    word-break: break-all;
+    padding: 8px 6px;
+}
+
+.griddle .table>tbody>tr.selected>td {
+    background: lightgray;
+}
+
+.griddle-container {
+    border: none;
+}
+
+.table-no-gap .griddle .table>tbody>tr>td {
+    padding: 0;
+    border-top: none;
+}
+
+.table-no-gap .griddle .table>thead>tr>th {
+    padding: 0;
+}
+
+.table-no-border .griddle .table>tbody>tr>td {
+    border: none;
+}
+
+.table-small .griddle td {
+    font-size: 12px;
+}

@@ -1,0 +1,17 @@
+.incident-button-value {
+    font-size: 24pt;
+    margin-left: 10px;
+    margin-right: 4px;
+    float: left;
+}
+
+.metric-container {
+    display: inline-block;
+    justify-content: center;
+    width: 25%;
+}
+
+.metric-panel {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}

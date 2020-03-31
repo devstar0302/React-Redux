@@ -1,0 +1,22 @@
+.searchbar-container {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.searchbar-input {
+    width: 80%;
+    border: 0;
+    outline-width: 0;
+}

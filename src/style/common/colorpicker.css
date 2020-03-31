@@ -1,0 +1,22 @@
+/* Color picker */
+.colorpicker-element{
+    display: inline-block;
+    width: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.colorpicker-element .input-group-addon {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.colorpicker-element .input-group-addon i,
+.colorpicker-element .add-on i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+    cursor: pointer;
+}

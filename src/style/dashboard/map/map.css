@@ -1,0 +1,246 @@
+.devicediv {
+    position: absolute;
+    width: 230px;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+    z-index: 61;
+    text-align: left;
+}
+.devicediv .panel {
+    border-bottom: 1px solid lightgray;
+}
+.devicediv > .panel:first-child {
+    border-radius: 0;
+}
+
+.devicediv .panel .panel-heading {
+    padding: 6px 15px;
+}
+
+.devicediv .panel-body {
+    padding: 5px 5px;
+}
+
+.devicediv ul {
+    padding-left: 5px;
+    list-style-type: none;
+    margin: 0;
+
+    max-height: 210px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.devicediv ul li {
+    height: 35px;
+    padding: 5px;
+}
+
+.devicediv ul li.active {
+    background: lightgray;
+}
+
+.devicediv ul li .item-text {
+    padding: 3px;
+    float: left;
+    color: white;
+}
+
+.devicediv .panel-collapse {
+    background: black;
+}
+
+img.longhub {
+    border-radius: 5px;
+}
+
+.item-icon img.longhub {
+    padding: 0 9px;
+}
+
+div.item-icon {
+    z-index: 1;
+}
+
+.item-icon img {
+    width: 26px;
+    height: 26px;
+}
+
+#linetypediv {
+    position: absolute;
+    width: 165px;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+    z-index: 61;
+
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+#linetypediv .panel-body {
+    padding: 5px 5px;
+}
+
+#linetypediv ul {
+    padding-left: 5px;
+    list-style-type: none;
+    margin-bottom: 0;
+
+    max-height: 209px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#linetypediv ul li {
+    height: 35px;
+    padding: 5px;
+}
+
+#linetypediv ul li .item-text {
+    padding: 3px;
+    float: left;
+}
+
+#mapeditdiv > .panel-heading .dropdown-menu > li > a {
+    padding: 4px;
+}
+
+#mapeditdiv > .panel-heading .dropdown-menu.drop-right {
+    left: inherit;
+    right: 0;
+}
+
+select.map-select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.map-heading.collapsed {
+    padding: 0;
+    height: 12px;
+}
+
+.map-heading.collapsed > * {
+    display: none;
+}
+
+.map-heading .panel-options {
+    right: 40px;
+}
+
+a.btn-new-incident {
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-bottom: -1px;
+    font-size: 20px;
+}
+
+/* Map */
+.map-row,
+.incidents-row {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.map-row .panel-body {
+    overflow: hidden;
+}
+
+.map-maximized {
+    max-width: initial;
+
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 21;
+}
+
+.map-maximized > .panel > .panel-heading {
+    position: fixed;
+    transition: 0.3s ease;
+    top: -50px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    border-bottom: 40px solid transparent;
+
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.map-maximized > .panel > .panel-heading:hover,
+.map-maximized > .panel > .panel-heading:focus {
+    top: -5px;
+}
+
+.map-maximized > .panel,
+.map-maximized > .panel > .panel-body,
+.map-maximized #mapdiv {
+    height: 100%;
+}
+
+.fullScreen > header {
+    display: none;
+}
+
+li.dropdown-settings {
+    display: none;
+}
+
+.map-maximized li.dropdown-settings {
+    display: block;
+}
+
+#map-header-toggle {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    padding: 10px;
+}
+
+#map-header-toggle .down {
+    display: none;
+}
+
+.map-heading.collapsed #map-header-toggle{
+    display: block;
+    top: -11px;
+}
+
+.map-heading.collapsed #map-header-toggle .up{
+    display: none;
+}
+
+.map-heading.collapsed #map-header-toggle .down{
+    display: block;
+}
+
+.map-hover {
+    position: absolute;
+    cursor: pointer;
+}
+
+.map-bottom-bar {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.map-toolbar {
+    background-color: #333333 !important;
+    border: 0px !important;
+}
+
+.toolbar-options {
+    right: 5px !important;
+}

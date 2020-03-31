@@ -1,0 +1,7 @@
+export const primeColor = '#5698c6'
+export const textColor = '#777777'
+export const badgeTextColor = '#f5f5f5'
+export const errorColor = '#d32f2f'
+export const backgroundColor = '#ffffff'
+export const headerColor = '#000000'
+export const disabledColor = '#d7d8d9'
